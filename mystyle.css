@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+a:link {
+  color: black;
+	background-color: #DED1BD;
+	padding: 10px 15px;
+	margin: 5px 15px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+	background-color: #DED1BD;
+	padding: 10px 15px;
+	margin: 5px 15px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+body {
+	background-color: #D3C4B3; 
+	color: black; 
+	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif'
+}
+.headerdiv {
+	background-color: #B08401; 
+	background-image: url("bannerbg3.jpg");
+	font-size: 75px; 
+	text-align: center; 
+	padding: 200px;
+	color: white;
+}
+
+p {
+	font-size: 23px;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+#navdiv {
+	background-color: #683B2B; 
+	text-align: center; 
+	padding:25px; 
+	color: white; 
+	font-size: 25px
+}
+.footerdiv {
+	background-color: #683B2B; 
+	text-align: center; 
+	padding: 25px; 
+	color: white; 
+	font-size: 25px
+}
+
+.thirdcolumn {
+	width: 30%;
+	padding: 15px;
+	float: left;
+	text-align: center;
+	font-size: px;
+	background-color: #158F97;
+	background-color: rgba(21, 143, 151, 0.5);
+	background-color: rgba(21, 143 151, 0.4);
+	margin: 10px;
+	border: 2px solid black;
+	color: black;
+}
+
+.thirdcolumn:hover {	
+	box-shadow: 0px 0px 5px 0px black;
+	transform: scale(1.05);
+	opacity: 1;
+}
+.thirdcolumn {
+	transition: transform 0.4s ease, opacity 0.4s ease;
+}
+h2 {
+	font-style:italic; 
+	font-size: 75px; 
+	text-align: center; 
+	font-weight: normal;
+		
+}
+
+
