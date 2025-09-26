@@ -30,10 +30,10 @@ a:active {
 }
 
 body {
-	background-color: #D3C4B3; 
-	color: black; 
+	background-color: #475569; 
+	color: #EDEDED; 
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	max-width: 2000px;
+	max-width: 1550px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -51,7 +51,7 @@ p {
 }
 
 #h1 {
-	font-size: 50px;
+	font-size:40px;
 	font-style: normal;
 	font-weight: bold;
 	padding-top: 20px;
@@ -73,14 +73,14 @@ p {
 }
 
 .thirdcolumn {
-	width: 30%;
+	width: 29%;
 	padding: 15px;
 	float: left;
 	text-align: center;
 	font-size: px;
-	background-color: #158F97;
-	background-color: rgba(21, 143, 151, 0.5);
-	background-color: rgba(21, 143 151, 0.4);
+	background-color: #FFDB58;
+	background-color: rgba(255, 219, 88, 1);
+	background-color: rgba(255, 219, 88, 0.7);
 	margin: 10px;
 	border: 2px solid black;
 	color: black;
@@ -102,5 +102,4 @@ p {
 	padding: 50px;
 		
 }
-
 
